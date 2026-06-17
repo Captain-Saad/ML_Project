@@ -1,0 +1,20 @@
+============================================================
+  Logistic Regression — Tier Classifier
+============================================================
+  Train Accuracy : 0.7288
+  Test  Accuracy : 0.7193
+  Test  F1 Macro : 0.7204
+  Overfit Gap    : 0.0095  (train_acc - test_acc)
+  5-Fold CV Acc  : 0.7175 +/- 0.0097
+  Best Params    : {'clf__penalty': 'l2', 'clf__C': 0.1}
+============================================================
+
+                    precision    recall  f1-score   support
+
+   Tier 1 (Budget)       0.79      0.77      0.78       443
+Tier 2 (Mid-range)       0.60      0.62      0.61       432
+  Tier 3 (Premium)       0.77      0.76      0.77       411
+
+          accuracy                           0.72      1286
+         macro avg       0.72      0.72      0.72      1286
+      weighted avg       0.72      0.72      0.72      1286

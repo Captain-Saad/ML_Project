@@ -1,0 +1,20 @@
+============================================================
+  Random Forest — Tier Classifier
+============================================================
+  Train Accuracy : 0.8662
+  Test  Accuracy : 0.7488
+  Test  F1 Macro : 0.7477
+  Overfit Gap    : 0.1174  (train_acc - test_acc)
+  5-Fold CV Acc  : 0.7367 +/- 0.0126
+  Best Params    : {'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 8, 'max_features': 'sqrt', 'max_depth': 14}
+============================================================
+
+                    precision    recall  f1-score   support
+
+   Tier 1 (Budget)       0.80      0.80      0.80       443
+Tier 2 (Mid-range)       0.66      0.62      0.64       432
+  Tier 3 (Premium)       0.78      0.83      0.80       411
+
+          accuracy                           0.75      1286
+         macro avg       0.75      0.75      0.75      1286
+      weighted avg       0.75      0.75      0.75      1286

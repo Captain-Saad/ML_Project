@@ -1,0 +1,20 @@
+============================================================
+  XGBoost — Tier Classifier
+============================================================
+  Train Accuracy : 0.9424
+  Test  Accuracy : 0.7512
+  Test  F1 Macro : 0.7519
+  Overfit Gap    : 0.1913  (train_acc - test_acc)
+  5-Fold CV Acc  : 0.7472 +/- 0.0096
+  Best Params    : {'subsample': 0.85, 'reg_lambda': 10.0, 'n_estimators': 450, 'min_child_weight': 10, 'max_depth': 6, 'learning_rate': 0.03, 'colsample_bytree': 0.8}
+============================================================
+
+                    precision    recall  f1-score   support
+
+   Tier 1 (Budget)       0.81      0.79      0.80       443
+Tier 2 (Mid-range)       0.65      0.66      0.65       432
+  Tier 3 (Premium)       0.80      0.81      0.80       411
+
+          accuracy                           0.75      1286
+         macro avg       0.75      0.75      0.75      1286
+      weighted avg       0.75      0.75      0.75      1286

@@ -1,0 +1,13 @@
+Genuine price_tier classification report - best model: XGBoost
+Test accuracy: 0.7512 | Train accuracy: 0.9424 | Overfit gap: 0.1913
+============================================================
+
+                    precision    recall  f1-score   support
+
+   Tier 1 (Budget)       0.81      0.79      0.80       443
+Tier 2 (Mid-range)       0.65      0.66      0.65       432
+  Tier 3 (Premium)       0.80      0.81      0.80       411
+
+          accuracy                           0.75      1286
+         macro avg       0.75      0.75      0.75      1286
+      weighted avg       0.75      0.75      0.75      1286

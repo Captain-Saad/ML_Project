@@ -1,0 +1,20 @@
+============================================================
+  SVM (RBF kernel) — Tier Classifier
+============================================================
+  Train Accuracy : 0.8378
+  Test  Accuracy : 0.7325
+  Test  F1 Macro : 0.7335
+  Overfit Gap    : 0.1053  (train_acc - test_acc)
+  5-Fold CV Acc  : 0.7336 +/- 0.0153
+  Best Params    : {'clf__gamma': 'scale', 'clf__C': 1.0}
+============================================================
+
+                    precision    recall  f1-score   support
+
+   Tier 1 (Budget)       0.80      0.78      0.79       443
+Tier 2 (Mid-range)       0.62      0.63      0.63       432
+  Tier 3 (Premium)       0.78      0.79      0.79       411
+
+          accuracy                           0.73      1286
+         macro avg       0.73      0.73      0.73      1286
+      weighted avg       0.73      0.73      0.73      1286

@@ -1,0 +1,20 @@
+============================================================
+  MLP (Deep Learning) — Tier Classifier
+============================================================
+  Train Accuracy : 0.7533
+  Test  Accuracy : 0.7146
+  Test  F1 Macro : 0.7154
+  Overfit Gap    : 0.0386  (train_acc - test_acc)
+  5-Fold CV Acc  : 0.7272 +/- 0.0108
+  Best Params    : {'clf__learning_rate_init': 0.001, 'clf__hidden_layer_sizes': (64, 32), 'clf__alpha': 0.001}
+============================================================
+
+                    precision    recall  f1-score   support
+
+   Tier 1 (Budget)       0.78      0.78      0.78       443
+Tier 2 (Mid-range)       0.60      0.61      0.60       432
+  Tier 3 (Premium)       0.77      0.75      0.76       411
+
+          accuracy                           0.71      1286
+         macro avg       0.72      0.71      0.72      1286
+      weighted avg       0.72      0.71      0.72      1286

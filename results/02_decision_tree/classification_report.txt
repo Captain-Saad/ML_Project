@@ -1,0 +1,20 @@
+============================================================
+  Decision Tree — Tier Classifier
+============================================================
+  Train Accuracy : 0.7171
+  Test  Accuracy : 0.6975
+  Test  F1 Macro : 0.7000
+  Overfit Gap    : 0.0196  (train_acc - test_acc)
+  5-Fold CV Acc  : 0.6836 +/- 0.0131
+  Best Params    : {'min_samples_split': 20, 'min_samples_leaf': 32, 'max_depth': 6}
+============================================================
+
+                    precision    recall  f1-score   support
+
+   Tier 1 (Budget)       0.75      0.75      0.75       443
+Tier 2 (Mid-range)       0.58      0.63      0.60       432
+  Tier 3 (Premium)       0.78      0.71      0.75       411
+
+          accuracy                           0.70      1286
+         macro avg       0.70      0.70      0.70      1286
+      weighted avg       0.70      0.70      0.70      1286

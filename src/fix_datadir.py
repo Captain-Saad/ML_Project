@@ -1,0 +1,1 @@
+import re; content = open("src/preprocess.py", encoding="utf-8").read(); content = re.sub(r"DATA_DIR\s*=\s*ROOT[^\"]*\"data[^\"]*\.xlsx\"[^\n]*", "DATA_DIR = ROOT / \"data\"", content); open("src/preprocess.py", "w", encoding="utf-8").write(content); print("Fixed.")
